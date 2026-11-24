@@ -23,6 +23,8 @@ The policy supports both common x402 network identifiers (`base` / `base-sepolia
 npm test
 ```
 
+GitHub Actions runs the same test command on pull requests targeting `main` and on branch pushes.
+
 ## Use the policy
 
 ```js
@@ -72,5 +74,6 @@ If a requirement violates policy, the function throws an error. The caller shoul
 
 - [x402 protocol repository](https://github.com/x402-foundation/x402)
 - [x402 v1 specification](https://github.com/x402-foundation/x402/blob/main/specs/x402-specification-v1.md)
+- [x402 v2 specification](https://github.com/x402-foundation/x402/blob/main/specs/x402-specification-v2.md)
 - [Coinbase CDP x402 examples](https://github.com/coinbase/cdp-sdk/tree/main/examples/typescript/x402)
 - [Base](https://base.org)
