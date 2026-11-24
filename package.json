@@ -1,0 +1,14 @@
+{
+  "name": "base-x402-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A Base-focused x402 agent starter with pre-payment safety checks.",
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
